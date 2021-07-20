@@ -3,7 +3,7 @@
 /**
  * main - print out the word "Holberton"
  *
- * Return 0
+ * Return: Always returns 0(success)
  */
 
 int main(void)
