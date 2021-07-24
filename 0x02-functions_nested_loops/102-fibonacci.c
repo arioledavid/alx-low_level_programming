@@ -11,7 +11,7 @@ int main(void)
 	int a = 1;
 	int b = 2;
 
-	for (count == 0; count <= 48; count++)
+	for (count = 0; count <= 48; count++)
 	{
 		printf("%i, %i", a, b);
 		
