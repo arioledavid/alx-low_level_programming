@@ -18,7 +18,7 @@ int main(void)
 		while(count <= 48)
 		{
 			b += a;
-			print(", %i", b)
+			printf(", %i", b);
 		}
 	}
 	return 0;
