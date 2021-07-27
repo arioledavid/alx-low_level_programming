@@ -12,6 +12,7 @@ int main(void)
 	long along;
 	long long alongs;
 	float afloat;
+
 	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
 	printf("Size of an int: %lu byte(s)\n", sizeof(aninteger));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
