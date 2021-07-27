@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf("%ld, ", j);
 		}
-		else if (j = 20365011074)
+		else if (j == 20365011074)
 		{
 			printf("%ld, ", j);
 		}
