@@ -11,7 +11,7 @@ int main(void)
 	unsigned long a = 1;
 	unsigned long b = 1;
 	unsigned long sum = 0;
-	long a_head, a_tail, b_head. b_tail, sum_tail;
+	long a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
 
 	printf("1");
 
@@ -20,7 +20,7 @@ int main(void)
 		sum = a + b;
 		a = b;
 		b = sum;
-		printf(", %", sum);
+		printf(", %lu", sum);
 	}
 
 	a_head = a / 1000000000;
