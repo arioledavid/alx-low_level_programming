@@ -21,7 +21,7 @@ int main(void)
 		a = b;
 		b = sum;
 		if ((sum <= 4000000) && (sum % 2 == 0))
-			sumevens =+sum;
+			sumevens += sum;
 	}
 	printf("%d\n", sumevens);
 
