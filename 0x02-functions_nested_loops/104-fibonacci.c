@@ -2,7 +2,7 @@
 
 /**
  * main - print first 98 fibonacci numbers without using long long, malloc, pointers, arrays/ tables
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 
 	printf("1");
 
-	for (counter = 2; counter < 93; counter++) 
+	for (counter = 2; counter < 93; counter++)
 	{
 		sum = a + b;
 		a = b;
