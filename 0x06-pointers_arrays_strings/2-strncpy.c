@@ -8,7 +8,7 @@
  * Return: copied string
  */
 
-char *_strncpy(char *dest, char *src, nt n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
