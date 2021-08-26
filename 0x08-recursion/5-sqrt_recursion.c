@@ -3,7 +3,7 @@
 /**
  * find_root - find square rrot of n, starting from the smallest possible, 0
  * @n: n
- * @root: test this root 
+ * @root: test this root
  * Return: natural square root, or -1 if not natural root
  */
 
@@ -21,7 +21,7 @@ int find_root(int n, int root)
 /**
  * _sqrt_recursion - find natural square root of n
  * @n: n
- * Return: natural square root, or -1 if not natural root 
+ * Return: natural square root, or -1 if not natural root
  */
 
 int _sqrt_recursion(int n)
