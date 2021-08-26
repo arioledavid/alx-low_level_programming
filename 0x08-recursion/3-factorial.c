@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/** 
+/**
  * factorial - find the factorial of n
  * @n: number
  * Return: factorial of n, -1 if n is negative
