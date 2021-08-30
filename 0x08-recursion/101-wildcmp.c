@@ -3,7 +3,7 @@
  * @s1: one string
  * @s2: one string
  * @after_wldcd: placeholder for position right after wildcard
- * Return: 1 if matched, 0 if not 
+ * Return: 1 if matched, 0 if not
  */
 
 int substring_match(char *s1, char *s2, char *after_wldcd)
@@ -18,7 +18,7 @@ int substring_match(char *s1, char *s2, char *after_wldcd)
 		return (substring_match(s1, s2 + 1, s2 + 1));
 	if (*s1 == *s2)
 		return (substring_match(s1 + 1, s2 + 1, after_wldcd));
-	else 
+	else
 		return (substring_match(s1 + 1, after_wldcd, after_wldcd));
 }
 
