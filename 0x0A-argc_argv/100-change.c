@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	{
 		while (amount >= 25)
 			amount -= 25, coins++;
-	};wq
+	}
 
 	if (amount > 10 && amount < 25)
 	{
