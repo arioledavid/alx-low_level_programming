@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		printf("Error\n");
-		returb (1);
+		return (1);
 	}
 	amount = atoi(argv[1]);
 	coins = 0;
@@ -22,12 +22,13 @@ int main(int argc, char *argv[])
 	{
 		while (amount >= 25)
 			amount -= 25, coins++;
-	}
+	};wq
+
 	if (amount > 10 && amount < 25)
 	{
 		while (amount >= 10)
 		{
-			amount -= 10; coins++
+			amount -= 10; coins++;
 		}
 	}
 	if (amount > 5 && amount < 10)
