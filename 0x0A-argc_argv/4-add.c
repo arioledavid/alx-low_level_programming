@@ -3,13 +3,12 @@
 #include <string.h>
 /**
  * num_checker - checks if a given char is number or not
- * @a: char to be checked 
+ * @a: char to be checked
  * Return: 1, if its a number, else 0
- * */
+ */
 int num_checker(char *a)
 {
-	int i, num, len;
-	
+	int i, num, len;	
 	i = 0;
 	num = 0;
 	len = strlen(a);
@@ -28,7 +27,7 @@ int num_checker(char *a)
 /**
  * main - add positive numbers
  * @argc: argument count
- * argv: array of pointers to argument strings
+ * @argv: array of pointers to argument strings
  * Return: result of addition or 1
  */
 int main(int argc, char *argv[])
