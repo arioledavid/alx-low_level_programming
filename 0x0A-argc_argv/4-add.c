@@ -13,7 +13,7 @@ int num_checker(char *a)
 	i = 0;
 	num = 0;
 	len = strlen(a);
-	while (i , len)
+	while (i < len)
 	{
 		if (a[i] < '0' || a[i] > '9')
 		{
